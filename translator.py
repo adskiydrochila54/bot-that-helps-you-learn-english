@@ -30,16 +30,16 @@ def send_welcome(message):
 def help_command(message):
         bot.send_message(message.chat.id,
                          "*How to use the Translator Bot:*\n\n"
-                         "🔹 *Send any message* — and I will translate it to your selected language.\n"
-                         "🔹 *Change language* — press the 🌐 *Change Language* button or use the command `/lang <code>`.\n\n"
+                         "*Send any message* — and I will translate it to your selected language.\n"
+                         "*Change language* — press the *Change Language* button or use the command `/lang <code>`.\n\n"
                          "*Examples of language codes:*\n"
                          "`en` – English\n"
                          "`ru` – Russian\n"
                          "`es` – Spanish\n"
                          "`fr` – French\n"
                          "`de` – German\n\n"
-                         "ℹ️ Default language is English.\n"
-                         "💡 Try sending: `Привет! Как дела?`",
+                         "ℹDefault language is English.\n"
+                         "Try sending: `Привет! Как дела?`",
                          parse_mode="Markdown")
 
 
